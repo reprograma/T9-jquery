@@ -1,22 +1,31 @@
-## Aula 1
+## Aula 1 - Conceitos Básicos
 
 #### O que é jQuery?
 
- [jQuery](https://jquery.com/) é uma biblioteca open-source com base em JavaScript criada para facilitar o desenvolvimento front-end. Seu lema é _write less, do more_ (Escreva menos, faça mais) 
+ [jQuery](https://jquery.com/) é uma biblioteca open-source com base em JavaScript criada para facilitar o desenvolvimento front-end. Seu lema diz muito sobre o seu objetivo principal: _write less, do more_ (Escreva menos, faça mais). 
  
 #### Como surgiu? 
 
- Foi criada em 2006 por John Resig ao perceber que seria possível reduzir a forma de escrita de algumas funções em javascript, criando assim o jQuery.
+ Foi criada em 2006 por John Resig ao perceber que seria possível reduzir a forma de escrita de algumas funções em javascript. Foi pioneira em sua área
+
 #### Vantagens
 
- * Facilidade de leitura e escrita do código
- * Open-source
+ * Facilidade de leitura e escrita
+ * Dinamismo com pouco código
+ * Open-source (da comunidade para a comunidade)
  * Seleção e manipulação de elementos HTML
- * Manipulação de CSS e semelhança de seletores
- * uso do AJAX* 
+ * Manipulação de CSS e semelhança com os seletores
+ * uso de requisições AJAX* 
  * Navegação pelo DOM
  * Eventos, efeitos e animações
- * 
+
+#### Por que ainda é importante estudar jQuery?
+
+* Projetos legado no mercado
+* Manutenção contínua em projetos de grande valor
+* História e desenvolvimento do próprio JavaScript
+* Plugins importantes
+
 #### Como instalar no seu projeto?
 
  Você pode utilizar através de um link direto no seu código html (CDN - minificado)
@@ -29,6 +38,7 @@ Ou você pode salvar o código no seu projeto, renomeando-o ou não (o link abai
 
 
 #### Sintaxe
+
 - __$(seletor).ação()__
 - $: simbolo de acesso ao jQuery
 - __Seletor__: para encontrar os elementos html
