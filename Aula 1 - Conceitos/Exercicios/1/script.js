@@ -1,10 +1,10 @@
 /*
-
   Biscoito da sorte - Versão JQuery 
 
-  Ao clicar no biscoito da sorte, troque o texto do parágrafo para uma frase aleatória que está guardada na nossa array 'frases'
+  Ao clicar no biscoito da sorte, troque o texto do parágrafo para uma frase aleatória que está guardada na nossa array 'frases'    
     
 */
+
 
 const frases = [
     "A vida trará coisas boas se tiveres paciência.",
@@ -23,3 +23,59 @@ const frases = [
     "O bom-senso vai mais longe do que muito conhecimento.",
 ]
 
+
+
+$('.biscoito').click(function() {
+  let indexDaFrase = Math.floor(Math.random() * frases.length)
+  $('#message').text(frases[indexDaFrase]) 
+})
+
+
+
+
+
+
+
+
+
+
+// // ao clicar no biscoito da sorte
+// $('.biscoito').click(function() {
+    
+// })
+
+// // troque o texto do parágrafo para uma frase aleatória que está guardada na nossa array 'frases
+// $('.biscoito').click(function() {
+//     let indexDaFrae = Math.floor(Math.random() * frases.length)
+// })
+
+
+// acessando as posições ou os elementors
+// $('.biscoito').click(function() {
+//   let indexDaFrae = Math.floor(Math.random() * frases.length)
+
+//   $('#message').text(frases) //traz todas as frases de uma unica vez(ta errado isso)
+// })
+
+
+
+
+//https://api.jquery.com/click/#click-handler
+
+
+// // JS Brenda
+
+// 1. selecione o parágrafo que receberá a mensagem da sorte.
+// 2. crie a função "fraseDaSorte", essa função deve alterar o texto do parágrafo para uma frase randômica do array acima.
+
+// // const biscoito = document.querySelector('img')
+// // const mensagem = document.querySelector('#message')
+
+// // function fraseDaSorte() {
+// //   const numeroAleatorio = Math.floor(Math.random() * frases.length)
+// //   mensagem.innerText = frases[numeroAleatorio]
+// // }
+
+// frases.length (é o tamanho da minha array)
+// Math.floor
+// Math.random
