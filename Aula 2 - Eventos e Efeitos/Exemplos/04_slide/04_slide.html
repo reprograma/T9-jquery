@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Slide</title>
+    <script src="js/jquery.js"></script>
+    <script src="script.js"></script>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #flip {
+        color: white;
+      }
+
+      #painel,
+      #flip {
+        padding: 15px;
+        text-align: center;
+        background-color: #009688;
+        border: solid 1px #f6f6f6;
+        cursor: pointer;
+      }
+
+      #painel {
+        padding: 50px;
+        display: none;
+      }
+      .flex {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .div1, .div2, .div3 {
+        display: none;
+      }
+      .container {
+        margin-bottom: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="container">
+      <div id="flip">Clique para aparecer o painel.</div>
+      <div id="painel">Mensagem escondida no painel</div>
+    </section>
+
+    <section class="container">
+      <button id="button">Clique e veja uma fofura</button>
+      <button id="button-run">Fugiram!</button>
+
+      <div class="flex">
+        <div class="div1">
+          <img width="300" height="300" src="https://tudosobregatos.com.br/wp-content/uploads/ragdoll.png" alt="gatinho1">
+        </div>
+        <div class="div2">
+          <img width="400" height="300" src="https://www.eztec.com.br/blog/wp-content/uploads/2017/08/43734_POST-82-_-UM-GATINHO-PRA-CHAMAR-DE-MEU-_-BLOG-EZTEC1_SEM-RAC%CC%A7A.jpg" alt="">
+        </div>
+        <div class="div3">
+          <img width="400" height="300" src="https://lh3.googleusercontent.com/proxy/LiRXNLzT90RAUlemjgOvwMJiuS17q8jMUcOMhoujaEq9EvhwPhY3FRQhI9rzF8G3FYCRIk8Vx5HXS_pdsDfGQ7VmSi52io-l6w" alt="">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
