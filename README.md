@@ -14,23 +14,22 @@
   **12/5**
 
   * 1 - Revisão!
-  * 2 - Eventos de Navegador
-  * 3 - Eventos de Mouse
+  * 2 - Eventos e Efeitos
+  * 3 - Toggle, show, hide, etc.
   * 4 - Exercícios 
 
   **13/05**
 
   * 1 - Revisão!
-  * 2 - Eventos de Teclado
-  * 3 - Eventos Toggle, show e hide
+  * 2 - Outros eventos e efeitos!
+  * 3 - Parallax e Animate
   * 4 - Exercícios 
 
   **14/05**
 
-  * 1 - Revisão!
-  * 2 - Efeitos
-  * 3 - Parallax e outras animações
-  * 4 - Exercício final
+  * 1 - Revisão e Correção!
+  * 2 - Exercício final
+  * 3 - Próximos passos
 
 
 __Objetivo da semana__: Conhecer o JQuery, entender sua história e suas vantagens. Saber utilizar o JQuery para manipular o DOM e outros elementos de uma aplicação web. Entender seletores, animações e as funções principais dessa biblioteca. 
