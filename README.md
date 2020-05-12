@@ -22,7 +22,7 @@
 
   * 1 - Revisão!
   * 2 - Eventos de Teclado
-  * 3 - Eventos Toggle, show e hide
+  * 3 - Efeitos Toggle, show, hide, etc.
   * 4 - Exercícios 
 
   **14/05**
