@@ -21,9 +21,8 @@
   **13/05**
 
   * 1 - Revisão!
-  * 2 - Outros eventos e efeitos!
-  * 3 - Parallax e Animate
-  * 4 - Exercícios 
+  * 2 - Scroll e Animações
+  * 3 - Exercícios 
 
   **14/05**
 
