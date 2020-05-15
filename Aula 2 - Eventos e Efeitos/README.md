@@ -19,6 +19,7 @@ Esses efeitos foram pioneiros nas técnicas de animação de páginas. Hoje em d
 
 
 - Documentação: https://api.jquery.com/category/effects/
+- Lista de Métodos de eventos: https://www.w3bai.com/pt/jquery/jquery_ref_events.html
 
 ### Tipos de Efeitos
   - show, ride, toggle
