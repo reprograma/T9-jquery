@@ -6,6 +6,8 @@
     
 */
 
+//frases é a minha lista de elementos que serão acessados através 
+//de seus indexes, pois frases é uma array
 const frases = [
     "A vida trará coisas boas se tiveres paciência.",
     "Demonstre amor e alegria em todas as oportunidades e verás que a paz nasce dentro de você.",
@@ -27,7 +29,13 @@ const frases = [
 //jQuery
 
 $('.biscoito').click(function() {
+  //math.floor() arredonda o número 
+  //math.random() fornece um número aleatório entre 0 e 1, por isso é todo decimal
+  //multiplicar pelo tamanho do meu array (frases) estabelece o limite que quero
+  //para que eu possa achar os indexes, e consequentemente as minhas frases
   let indexDaFrase = Math.floor(Math.random() * frases.length)
   
+  //no elemento message, mostro a frase aleatória selecionada, puxando 
+  //o valor da array pelo seu index
   $('#message').text(frases[indexDaFrase])
 })
