@@ -1,4 +1,4 @@
-### Scroll 
+## Scroll 
 O evento de scroll (rolagem) ocorre quando o usuário faz scroll em um elemento especificado.
 
 O evento de rolagem funciona para todos os elementos roláveis ​​e o objeto de janela (janela do navegador).
@@ -26,8 +26,31 @@ Este método retorna a posição vertical da barra de rolagem para o PRIMEIRO el
 
 O método offset() define ou retorna as coordenadas para os elementos selecionados, em relação ao documento/window.
 
+```
+
+$(selector).offset(retorna o objeto: {top:valor,left:valor})
+
+```
+
 - __Quando usado para retornar o deslocamento__:
 Este método retorna as coordenadas de deslocamento do PRIMEIRO elemento correspondente. Ele retorna um objeto com 2 propriedades: as posições superior (top) e esquerda (left) em pixels.
+
+
+## animate ()
+
+O método animate() executa uma animação personalizada de um conjunto de propriedades CSS.
+
+```
+$(selector).animate({parâmetros de estilo css}, tempo, callback);
+
+```
+
+Este método __altera um elemento de um estado para outro com estilos CSS__. O valor da propriedade CSS é alterado gradualmente, para criar um efeito animado.
+
+__Somente valores numéricos podem ser animados__ (como "margem: 30px"). Os valores das strings não podem ser animados (como "cor de fundo: vermelho"), exceto pelas strings "show", "hide" e "toggle". Esses valores permitem ocultar e mostrar o elemento animado.
+
+- Pra matar a curiosidade: uma biblioteca para interações de interface usando animate e outros efeitos: https://jqueryui.com/animate/ 
+
 
 ## Próximos passos
 
